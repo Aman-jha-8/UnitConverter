@@ -1,0 +1,116 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Container styles */
+.converter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/* Select styles */
+select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Input and button styles */
+input[type="number"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button[type="button"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Result styles */
+#result {
+    background-color: #e4fc8f;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    max-width: 500px;
+    color: #c50505;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+}
+
+#result h3 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+    margin: 0;
+}
+
+#result div {
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .converter, #result {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    input[type="number"], select, button[type="button"] {
+        width: 100%;
+    }
+}
